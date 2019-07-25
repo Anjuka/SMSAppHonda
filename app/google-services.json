@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "68155823458",
+    "firebase_url": "https://hondapromo-a4ffa.firebaseio.com",
+    "project_id": "hondapromo-a4ffa",
+    "storage_bucket": "hondapromo-a4ffa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68155823458:android:b0e1b00abfc09669",
+        "android_client_info": {
+          "package_name": "com.anjukakoralage.hondapromo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68155823458-5deveqc81p2ihdc4mli2sr57bbuo34k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO5bHkCZ3M3Vgv_hwyzTS600DmBIxAWYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68155823458-5deveqc81p2ihdc4mli2sr57bbuo34k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68155823458:android:95be6274e690bf59",
+        "android_client_info": {
+          "package_name": "com.anjukakoralage.smsapphonda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68155823458-afs8f834qggv6iu6bk0tu7v73tk8oa15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anjukakoralage.smsapphonda",
+            "certificate_hash": "c9d2b460127f4e77e39b0112778679351d7ff064"
+          }
+        },
+        {
+          "client_id": "68155823458-5deveqc81p2ihdc4mli2sr57bbuo34k8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO5bHkCZ3M3Vgv_hwyzTS600DmBIxAWYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68155823458-5deveqc81p2ihdc4mli2sr57bbuo34k8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
