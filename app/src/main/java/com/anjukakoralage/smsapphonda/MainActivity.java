@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     private String Name = "";
     private String Tp = "";
     private LinearLayout coordinatorLayout;
-    String smsName, sendNumber,lastID , ID, msg;
+    String smsName, sendNumber,lastID , ID, msgEng,msgSi,msgTi, ownerName;
     SharedPreferences.Editor editor;
 
     @Override
@@ -85,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
                     //if you call methods on dataSnapshot it gives you the required values
                     String number = data.child("tp").getValue().toString();
                     String name = data.child("name").getValue().toString();
+                    ownerName = name;
 
                     SharedPreferences prefs = getSharedPreferences("PhoneNumberSP", Activity.MODE_PRIVATE);
                     String last = prefs.getString("lastID", "");
@@ -113,14 +114,15 @@ public class MainActivity extends AppCompatActivity {
 
     public void sendSMS() {
 
-        msg = "We honda familly, leaders in safety respectfully dedicate our honour to you.";
+        msgEng = ownerName + ", you are a good citizen who thinks about safety of you and your family." +
+                "We honda family, leaders in safety respectfully dedicate our honour to you.";
 
         //smsName = "Text Honda";
 
         try {
             SmsManager smsManager = SmsManager.getDefault();
             //smsManager.sendTextMessage(sendNumber, null, smsName, null, null);
-            smsManager.sendTextMessage(sendNumber, null, msg, null, null);
+            smsManager.sendTextMessage(sendNumber, null, msgEng, null, null);
             Toast.makeText(this, "SMS Send...", Toast.LENGTH_LONG).show();
 
         } catch (Exception e) {
